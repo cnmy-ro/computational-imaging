@@ -5,11 +5,11 @@ Self-contained implementations of some algorithms used in computational imaging,
 algorithms
     |
     |- algorithm_1
-    |   |- algo_1.py
+    |   |- algorithm_1.py
     |   |- Demo.ipynb
     |
     |- algorithm_2
-    |   |- algo_2.py
+    |   |- algorithm_2.py
     |   |- Demo.ipynb
     ...
 ```
@@ -17,8 +17,10 @@ algorithms
 
 ## Available Algorithms
 
+MRI reconstruction:
 - [SENSE reconstruction](algorithms/sense/)
 - [CG-SENSE reconstruction](algorithms/cg_sense/)
 - [Compressed sensing reconstruction](algorithms/cs/)
-- [ESPIRiT calibration and reconstruction](algorithms/espirit/)
-- [Extended phase graph simulation](algorithms/epg/)
+
+MR signal simulation:
+- [Extended phase graph method](algorithms/epg/)
