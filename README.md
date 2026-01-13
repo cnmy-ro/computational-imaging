@@ -1,4 +1,4 @@
-# Computational Imaging
+# Repository of Computational Imaging
 
 Self-contained implementations of some algorithms used in computational imaging, focused especially on MRI. This repo has a simple structure: `algorithm = python_file + demo_notebook`.
 ```
