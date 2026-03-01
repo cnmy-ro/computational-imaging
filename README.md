@@ -4,7 +4,9 @@
 
 [![DOI](https://zenodo.org/badge/1132861288.svg)](https://doi.org/10.5281/zenodo.18778617)
 
-Repository of computational imaging (`roci`) is a collection of clean, self-contained implementations of algorithms used in computational imaging. Currently focused on computational MRI applications (reconstruction, synthesis, quantification) and techniques based on representation learning and generative modeling.
+Repository of computational imaging (`roci`) is a collection of clean, self-contained implementations of algorithms used in computational imaging. Currently focused on computational MRI applications (reconstruction, synthesis, quantification) and techniques based on representation learning and generative modeling. For educational and research purposes only.
+
+## Organization
 
 The directory structure is simple: `algorithm = python_file + demo_notebook + readme`.
 ```
@@ -34,15 +36,15 @@ MR signal simulation:
 - [Extended phase graph method](algorithms/epg/)
 
 Image representations:
-- [Implicit neural representation for differentiable uncalibrated imaging](algorithms/implicit_repr/)
+- [Implicit neural representations for differentiable uncalibrated imaging](algorithms/implicit_repr/)
 
 
 ## Coming Soon
 
 - [ ] Deep image prior
 - [ ] Compressed-sensing with generative modeling (CSGM)
-- [ ] Diffusion model-based reconstruction
-- [ ] Flow matching-based reconstruction
-- [ ] Gaussian splatting
+- [ ] Diffusion model-based inversion
+- [ ] Flow matching-based inversion
+- [ ] Gaussian representations
 - [ ] Plug-and-play denoiser-based reconstruction
 - [ ] Magnetic resonance spin tomography in time-domain (MR-STAT)
