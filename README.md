@@ -27,13 +27,13 @@ algorithms
 ## Available Algorithms
 
 MRI reconstruction:
-- [SENSE reconstruction](algorithms/sense/)
-- [CG-SENSE reconstruction](algorithms/cg_sense/)
+- [SENSE parallel-imaging reconstruction](algorithms/sense/)
+- [CG-SENSE parallel-imaging reconstruction](algorithms/cg_sense/)
 - [Compressed sensing reconstruction](algorithms/cs/)
 
-MR signal simulation:
-- [Bloch simulation](algorithms/bloch/)
-- [Extended phase graph method](algorithms/epg/)
+MRI physics simulation:
+- [Bloch signal simulation](algorithms/bloch/)
+- [Extended phase graphs method](algorithms/epg/)
 
 Image representations:
 - [Implicit neural representations for differentiable uncalibrated imaging](algorithms/implicit_repr/)
@@ -42,9 +42,13 @@ Image representations:
 ## Coming Soon
 
 - [ ] Deep image prior
+- [ ] Gaussian representations
+- [ ] Equivariant imaging
+- [ ] Double Blind Imaging with Generative Modeling
 - [ ] Compressed-sensing with generative modeling (CSGM)
+- [ ] noise2noise denoising
+- [ ] Plug-and-play denoiser-based reconstruction
 - [ ] Diffusion model-based inversion
 - [ ] Flow matching-based inversion
-- [ ] Gaussian representations
-- [ ] Plug-and-play denoiser-based reconstruction
+- [ ] ESPIRiT parallel-imaging
 - [ ] Magnetic resonance spin tomography in time-domain (MR-STAT)
